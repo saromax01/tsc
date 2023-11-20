@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>super enall8</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gioco Numero Casuale</title>
+      </head>
+      <body>
+        <h1>Gioco Numero Casuale</h1>
+
+        <label for="giocatore1Input">Giocatore 1: </label>
+        <input type="number" id="giocatore1Input" min="1" max="100" value="1" />
+
+        <label for="giocatore2Input">Giocatore 2: </label>
+        <input type="number" id="giocatore2Input" min="1" max="100" value="1" />
+
+        <button onclick="avviaGioco()">Avvia Gioco</button>
+
+        <div class="mostrato" id="risultato"></div>
+        <div class="mostrato" id="numeroCasuale"></div>
+
+        <script src="gioco.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
